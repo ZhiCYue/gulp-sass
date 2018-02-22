@@ -1,0 +1,55 @@
+.ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+p {
+  color: green; }
+
+.border-1 {
+  border: 1px solid blue; }
+
+.border-2 {
+  border: 2px solid blue; }
+
+.border-3 {
+  border: 3px solid blue; }
+
+.border-4 {
+  border: 4px solid blue; }
+
+.border-5 {
+  border: 5px solid blue; }
+
+.border-6 {
+  border: 6px solid blue; }
+
+.border-7 {
+  border: 7px solid blue; }
+
+.border-8 {
+  border: 8px solid blue; }
+
+.border-9 {
+  border: 9px solid blue; }
+
+.item-6 {
+  width: 12em; }
+
+.item-4 {
+  width: 8em; }
+
+.item-2 {
+  width: 4em; }
+
+.puma-icon {
+  background-image: url("/images/puma.png"); }
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png"); }
+
+.egret-icon {
+  background-image: url("/images/egret.png"); }
+
+.salamander-icon {
+  background-image: url("/images/salamander.png"); }

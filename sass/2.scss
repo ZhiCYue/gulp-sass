@@ -1,0 +1,46 @@
+//scss style
+//-------------------------------
+$lte7: true;
+$type: monster;
+.ib{
+    display:inline-block;
+    @if $lte7 {
+        *display:inline;
+        *zoom:1;
+    }
+}
+p {
+  @if $type == ocean {
+    color: blue;
+  } @else if $type == matador {
+    color: red;
+  } @else if $type == monster {
+    color: green;
+  } @else {
+    color: black;
+  }
+}
+
+
+@for $i from 1 to 10 {
+  .border-#{$i} {
+    border: #{$i}px solid blue;
+  }
+} 
+
+
+$i: 6;
+@while $i > 0 {
+  .item-#{$i} { width: 2em * $i; }
+  $i: $i - 2;
+}
+
+
+//scss style
+//-------------------------------
+$animal-list: puma, sea-slug, egret, salamander;
+@each $animal in $animal-list {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}

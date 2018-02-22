@@ -1,0 +1,13 @@
+//scss style
+//-----------------------------------
+// _reset.scss
+
+$v: 1;
+
+html,
+body,
+ul,
+ol {
+   margin: $v;
+  padding: 0;
+}
