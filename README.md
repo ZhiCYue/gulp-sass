@@ -2,5 +2,6 @@
 gulp构建sass简单示例
 
 
-# npm run install
-# npm run build
+# 运行
+npm install
+npm run build
